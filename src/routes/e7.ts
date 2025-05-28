@@ -35,7 +35,7 @@ exercise7.get(
   }
 );
 
-exercise7.get(
+exercise7.post(
   "/teapot",
   async (req: Request, res: Response, next: NextFunction) => {
     res.status(418).send();
